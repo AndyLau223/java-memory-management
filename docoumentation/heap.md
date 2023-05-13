@@ -47,7 +47,9 @@ target survivor space S1:
 * examine S0
   * Copy tenured object to old generation space 
   * Copy remained object to S1
-  * reclaimed
+  * reclaimed S0
+
+
 vice versa.
 
 ![img_6.png](img_6.png)
