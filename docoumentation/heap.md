@@ -23,7 +23,7 @@ reachable as live. The most common GC roots are the following:
 
 **Given-When-Then scenario**
 
-* Give: **S0** as the target survivor and **S1** as the source survivor spaces initially
+* Given: **S0** as the target survivor and **S1** as the source survivor spaces initially
 * When: Minor garbage collector runs. In other words, the eden space does not have enough space for an object that the JVM wishes to allocate
 * When: 
   * All live objects from the eden space are copied to the **S0** survivor space. The ages of those objects are set to `1`, as they have just survived their first GC cycle
