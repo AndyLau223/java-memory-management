@@ -25,7 +25,7 @@ reachable as live. The most common GC roots are the following:
 
 * Given: **S0** as the target survivor and **S1** as the source survivor spaces initially
 * When: Minor garbage collector runs. In other words, the eden space does not have enough space for an object that the JVM wishes to allocate
-* When: 
+* Then: 
   * All live objects from the eden space are copied to the **S0** survivor space. The ages of those objects are set to `1`, as they have just survived their first GC cycle
   * **S1** is examined and any live objects whose ages meet a given threshold(the **tenuring threshold**) are copied to the old generation space, meaning they are tenured. In other words, this is a long-lived object, so copy it to the old generation area where longer-lived objects reside. This makes future minor GC runs more efficient as it ensures these same objects are not reexamined.
   * The remaining live **S1** objects (the ones that were not tenured) are copied to **S0**, where their ages are incremented by one, as they have just passed another GC cycle.
