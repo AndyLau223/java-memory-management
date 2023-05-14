@@ -9,7 +9,7 @@ import java.util.List;
  *
  * You can launch the application with different heap size to
  * experiment what will happen when heap size running out of space  and
- * what will the GC activity looks like.
+ * what would the GC activity look like.
  */
 public class ExampleAnalysis {
 
