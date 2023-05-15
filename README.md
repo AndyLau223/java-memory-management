@@ -1,2 +1,2 @@
 # java-memory-management
-Refresh knowlege on java memory management. Notes are in documentation directory.
+Refresh knowledge on java memory management. Notes are in documentation directory.
