@@ -87,4 +87,3 @@ You also can use VisualVM to profiling the application.
 * **-XX:MaxMetaspaceSize=2048m** : as name describe
 * **-XX:MetaspaceSize=1024m** : threshold to trigger a run of garbage collector
 * **-XX:MinMetaspaceFreeRatio=50 and -XX:MaxMetaspaceFreeRatio=50** set ratio of Metaspace
-* **XX:+UseSerialGC**
